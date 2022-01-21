@@ -1,0 +1,10 @@
+.container #profile-pic {
+width: 50%;
+height: 50%;
+margin:0 auto;
+padding-bottom: 0px;
+}
+
+.row {
+    padding-bottom:10% ;
+}
