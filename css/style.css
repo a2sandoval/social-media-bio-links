@@ -2,9 +2,18 @@
 width: 50%;
 height: 50%;
 margin:0 auto;
-padding-bottom: 0px;
 }
 
+.container .list-group button {
+    text-align:right;
+}
+/*
 .row {
-    padding-bottom:10% ;
+    padding-bottom:200px ;
+    padding-top: 2px;
+} */
+
+body {
+   background-color: rgb(24, 134, 170); 
+   padding: 40px;
 }
