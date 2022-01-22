@@ -2,20 +2,18 @@
     font-family:Georgia, 'Times New Roman', Times, serif ;
 }
 
-.container #profile-pic .col-sm img{ 
-width: auto;
-height: auto;
-margin:0 auto;
-position: relative;
-}
 
 .container {
     color:white;
 }
 
-ul li {
-    list-style-type: none;
+ul li a{
     color: white;
+    list-style-type: none;
+}
+ul li {
+    font-style: normal;
+    list-style-type: none;
 }
 body {
    /* background-color: rgb(24, 134, 170);  */
