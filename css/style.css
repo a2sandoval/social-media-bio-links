@@ -1,19 +1,26 @@
-.container #profile-pic {
-width: 50%;
-height: 50%;
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.container #profile-pic .col-sm img{ 
+width: auto;
+height: auto;
 margin:0 auto;
+position: relative;
 }
 
-.container .list-group button {
-    text-align:right;
+.container {
+    color:white;
 }
-/*
-.row {
-    padding-bottom:200px ;
-    padding-top: 2px;
-} */
 
+ul li {
+    list-style-type: none;
+    color: white;
+}
 body {
-   background-color: rgb(24, 134, 170); 
+   /* background-color: rgb(24, 134, 170);  */
    padding: 40px;
+   background-image:url("../img/background.jpg") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
