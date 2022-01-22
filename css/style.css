@@ -16,7 +16,7 @@ ul li {
     list-style-type: none;
 }
 body {
-   /* background-color: rgb(24, 134, 170);  */
+   background-color: #a59be0;
    padding: 40px;
    background-image:url("../img/background.jpg") !important;
    background-size: cover;
