@@ -22,3 +22,8 @@ body {
    background-size: cover;
    background-repeat: no-repeat;
 }
+
+button {
+    padding-left:20px;
+    padding-right:150px;
+}
