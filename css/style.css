@@ -65,7 +65,6 @@ body {
     color:white;
     margin-bottom: 20px;
     padding: 40px 0px;
-
     
 }
 
@@ -83,6 +82,7 @@ ul {
     list-style: none;
     display: flex;
     justify-content:center;
+    padding:0px;
     
     
 }
@@ -104,9 +104,11 @@ footer ul li a {
 }
 
 .menuLinks ul li a{
-    margin:0px 40px 0px 40px;
     color:white;
     text-decoration: none;
+    margin:30px;
+
+    
    
   
 
@@ -114,6 +116,7 @@ footer ul li a {
 footer {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 
 }
 
@@ -137,9 +140,13 @@ footer {
 @media screen and (max-width:479px) {
     .details {
         border:3px white solid;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: rgba(0, 0, 0, 0.8);
+    
     }
     .menuLinks {
-        border:2px white dashed;
+        border:2px white solid;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 
@@ -147,10 +154,13 @@ footer {
 @media screen and (max-width: 360px) {
 .details {
     border:3px white solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
 }
 
 .menuLinks {
-    border:2px white dashed;
+    border:2px white solid;
+
 }
    
 }	
