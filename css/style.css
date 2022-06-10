@@ -57,22 +57,16 @@ body {
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    border-top: 2px white solid;
-    border-bottom: 2px white solid;
     color:white;
     margin-bottom: 20px;
     padding: 40px 0px;
     
 }
-
-
-
-h1 {
-    font-size: 250%;
-    color:white;
-    margin: 10px;
-
+.details p {
+    padding:0px 0px 0px 15px;
 }
+
+
 
 ul {
     text-decoration: none;
@@ -136,7 +130,7 @@ footer {
 
 @media screen and (max-width:479px) {
     .details {
-        border:3px white solid;
+    
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: rgba(0, 0, 0, 0.8);
     
